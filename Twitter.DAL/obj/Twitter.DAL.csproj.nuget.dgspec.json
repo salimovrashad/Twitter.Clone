@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.DAL\\Twitter.DAL.csproj": {}
+    "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.DAL\\Twitter.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.Core\\Twitter.Core.csproj": {
+    "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.Core\\Twitter.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.Core\\Twitter.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.Core\\Twitter.Core.csproj",
         "projectName": "Twitter.Core",
-        "projectPath": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.Core\\Twitter.Core.csproj",
+        "projectPath": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.Core\\Twitter.Core.csproj",
         "packagesPath": "C:\\Users\\Rashad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.Core\\obj\\",
+        "outputPath": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.DAL\\Twitter.DAL.csproj": {
+    "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.DAL\\Twitter.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.DAL\\Twitter.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.DAL\\Twitter.DAL.csproj",
         "projectName": "Twitter.DAL",
-        "projectPath": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.DAL\\Twitter.DAL.csproj",
+        "projectPath": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.DAL\\Twitter.DAL.csproj",
         "packagesPath": "C:\\Users\\Rashad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.Core\\Twitter.Core.csproj": {
-                "projectPath": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.Core\\Twitter.Core.csproj"
+              "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.Core\\Twitter.Core.csproj": {
+                "projectPath": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.Core\\Twitter.Core.csproj"
               }
             }
           }

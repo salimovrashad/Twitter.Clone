@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2nzef6TT4J4h/HY0KbPdorJ0Kh/kzkusfPcow4Tnpm2dKAM4K0b8o0vbb4WTUEjwlKLXAr+tkASbDYdRMf6aiQ==",
+  "dgSpecHash": "zIHeZCQrJSw+X+P5d/vjifhPJcqK5C32qiXvhjiE1gXlF4N5MJpAn1HYOqEJkfR/ayNCpZ/+559mOHWRxd5WNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.Core\\Twitter.Core.csproj",
+  "projectFilePath": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.Core\\Twitter.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

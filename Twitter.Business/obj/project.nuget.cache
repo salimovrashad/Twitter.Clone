@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Gj3ZTATe5YzjovqzDJBwEb6JdxHdUYIaqTo1X92TpcG0tx7H7dsf5FvCPOGh92/aITm36EGhi3XCqeaTggemgQ==",
+  "dgSpecHash": "d+s9b5IMgt1IRqigRH9czj3KIYB7azClDS9FrHVm9aBtjKnd5S9Bvv+IkqAIepnHNgZSt3nZsduuNgCfxYRswg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.Business\\Twitter.Business.csproj",
+  "projectFilePath": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.Business\\Twitter.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Rashad\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Rashad\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Rashad\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

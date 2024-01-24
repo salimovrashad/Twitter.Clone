@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "etWcLUmv6Oo1Ly7Ow79l2fgXFb+CatvCMUMWatV8ibNIFDK3lnjAsjlcWjPbaq6qQxdhf+sXW9SQC0lCZZwI/w==",
+  "dgSpecHash": "EMWT6CeXU2WAhNrk1bJ2+OiGyE4WY9HTyaGxHdVhMcGyBej6I5sXdjdnvuCyoVflBGSWti8NVbsibPxpdykx8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rashad\\Desktop\\Twitter\\Twitter.DAL\\Twitter.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Rashad\\Desktop\\Twitter.Clone\\Twitter.DAL\\Twitter.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rashad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

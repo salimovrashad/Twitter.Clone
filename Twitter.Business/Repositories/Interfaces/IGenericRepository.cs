@@ -14,5 +14,7 @@ namespace Twitter.Business.Repositories.Interfaces
         DbSet<T> Table { get; }
         IQueryable<T> GetAll(bool noTracking = true);
         Task<bool> IsExistAsync(Expression<Func<T, bool>> expression);
+        Task CreateAsync(T data);
+        Task SaveAsync();
     }
 }

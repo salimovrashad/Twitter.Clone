@@ -28,5 +28,15 @@ namespace Twitter.Business.Repositories.Implements
         }
 
         public async Task<bool> IsExistAsync(Expression<Func<T, bool>> expression) => await Table.AnyAsync();
+
+        public async Task CreateAsync(T data)
+        {
+            await Table.AddAsync(data);
+        }
+
+        public async Task SaveAsync()
+        {
+            await _context.SaveChangesAsync();
+        }
     }
 }

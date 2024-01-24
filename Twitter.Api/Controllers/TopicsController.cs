@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Twitter.Business.DTOs.TopicDTOs;
 using Twitter.Business.Repositories.Interfaces;
 using Twitter.Business.Services.Interfaces;
 
@@ -19,6 +20,12 @@ namespace Twitter.Api.Controllers
         public IActionResult Get()
         {
             return Ok(_service.GetAll());
+        }
+        [HttpPost]
+        public async Task<IActionResult> Post(TopicCreateItemDTO dto)
+        {
+            await _service.CreateAsync(dto);
+            return StatusCode(StatusCodes.Status201Created);
         }
     }
 }

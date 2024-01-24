@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TwitterDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")));
 builder.Services.AddRepositories();
 builder.Services.AddServices();
+builder.Services.AddBusinessLayer();
 
 var app = builder.Build();
 

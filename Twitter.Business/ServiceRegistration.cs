@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using FluentValidation.AspNetCore;
+using Microsoft.Extensions.DependencyInjection;
+using Twitter.Business.DTOs.TopicDTOs;
 using Twitter.Business.Repositories.Implements;
 using Twitter.Business.Repositories.Interfaces;
 using Twitter.Business.Services.Implements;
@@ -16,6 +18,11 @@ namespace Twitter.Business
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             services.AddScoped<ITopicService, TopicService>();
+            return services;
+        }
+        public static IServiceCollection AddBusinessLayer(this IServiceCollection services)
+        {
+            services.AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<TopicCreateItemDTOValidator>());
             return services;
         }
     }

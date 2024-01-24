@@ -19,9 +19,13 @@ namespace Twitter.Business.Services.Implements
             _repo = repo;
         }
 
-        public Task CreateAsync(TopicCreateItemDTO dto)
+        public async Task CreateAsync(TopicCreateItemDTO dto)
         {
-            throw new NotImplementedException();
+            await _repo.CreateAsync(new Topic
+            {
+                Name = dto.Name
+            });
+            await _repo.SaveAsync();
         }
 
         public IQueryable<TopicListItemDTO> GetAll()
